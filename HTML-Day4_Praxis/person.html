@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Person Eingabe</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <form action="" formenctype="multipart/form-data" method="get" >
+            <fieldset>
+                <legend>Personendaten</legend>
+                <label for="anrede">Anrede</label>
+                <select id="anrede" name="anrede">
+                    <option>Herr</option>
+                    <option>Frau</option>
+                </select><br/>
+                
+                <label for="titel">Titel</label>
+                <input id="titel" name="titel"/><br/>
+                <label for="firstname">Vorname</label>
+                <input id="firstname" name="firstname"/><br/>
+                <label for="lastname">Nachname</label>
+                <input id="lastname" name="lastname" /><br/>
+            </fieldset>
+            <fieldset>
+                <legend>Adresse</legend>
+                <label for="streetNr">Straße, Hausnummer</label>
+                <input id="streetNr" name="streetNr" /><br/>
+                <label for="plzLoc">PLZ, Ort</label>
+                <input id="plzLoc" name="plzLoc" /><br/>
+                <label for="bundenland">Bundesland</label>
+                <input id="bundesland" name="bundesland"/><br/>
+            </fieldset>
+            <fieldset>
+                <legend>Other</legend>
+                <label for="birthdate">Geburtsdatum</label>
+                <input id="birthdate" type="date" name="birthdate" /><br/>
+
+                <input type="file" accept=".jpg,.png" name="bild" value="Bild hochladen"/><br />
+                <label for="comment">Kommentar</label>
+                <textarea id="comment", name="comment"></textarea>
+                <br />
+                <br />
+                <input type="submit" />
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Praxis Day 4</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <form method="get" action="https://google.de/search">
+            <input id="rad1" type="radio" name="q" value="patrick"/>
+            <label for="rad1">Radio 1</label><br />
+            <input id="rad2" type="radio" name="q" value="spongebob" />
+            <label for="rad2">Radio 2</label><br />
+            <input id="check" type="checkbox" value="lel" name="q" />
+            <label for="check">Check</label><br />
+            <br />
+            <input name="q" placeholder="hex number" autocomplete="false" pattern="0x[0-9A-Fa-f]+"/> 
+            <br />
+            <br />
+            <input list="werte"/>
+            <datalist id="werte">
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+            </datalist>
+            <input type="submit" />
+        </form>
+    </body>
+</html>
