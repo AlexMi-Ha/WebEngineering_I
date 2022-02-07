@@ -1,0 +1,4 @@
+p[lang~=de] p[lang=fr] : /
+p[lang~=de] ~ p[lang=fr] : p2 
+p[lang~=de] + p[lang=fr] : /
+#ol1 *[title|=abc] : /

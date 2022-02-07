@@ -1,0 +1,14 @@
+h2 : h2 h3
+p li : /
+ol li : li1 li2 li3
+h2 ~ p : p2 p4
+h2 > p : /
+p + p : /
+h1 ~ h2 : h2 h3
+ol * : li1 li2 b li3
+ol > * : li1 li2 li3
+:first-child : h1
+:only-child : /
+h2:first-of-type : h2
+.k : p4
+.p4 : /

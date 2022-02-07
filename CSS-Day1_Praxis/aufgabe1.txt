@@ -1,0 +1,15 @@
+h2 : h2      
+.b : ol1 p3
+#li2 : li2
+p[lang=de] : p1 p3
+p[lang="de"] : p1 p3
+*[title="x"] : /
+*[title="x abc"] : /
+*[title~="x"] : h2 li1
+*[title~="x abc"] : h2 li1
+*[title|="abc"] : /
+*[title|="x abc"] : li1
+*[title^="abc"] : /
+*[title$="c z"] : h2
+*[title*="abc"] : h2 li1
+*[title*= "x abc"] : h2 li1
